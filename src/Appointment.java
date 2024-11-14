@@ -1,12 +1,12 @@
 public class Appointment {
-    // Instance variables for patient details
+    
     private String patientName;
     private String patientMobile;
 
     // Instance variable for the preferred time slot
     private String timeSlot;
 
-    // Instance variable for the selected doctor (can be GeneralPractitioner or Dentist)
+    
     private HealthProfessional doctor;
 
     // Default constructor
@@ -17,7 +17,7 @@ public class Appointment {
         this.doctor = null;  // No doctor selected by default
     }
 
-    // Parameterized constructor
+    
     public   Appointment(String patientName, String patientMobile, String timeSlot, HealthProfessional doctor) {
         this.patientName = patientName;
         this.patientMobile = patientMobile;
