@@ -40,7 +40,7 @@ public class Appointment {
         }
     }
 
-    // Getters and setters (optional, depending on project requirements)
+    // Getters and setters 
     public String getPatientName() {
         return patientName;
     }

@@ -14,17 +14,17 @@ public class AssignmentOne {
         Dentist dentist1 = new Dentist(2, "Dr. Sarah White", "Dentist", true);
 
         // Create appointments and add them to the appointments list
-        createAppointment("Alice Johnson", "555-1234", "08:00", gp1);
-        createAppointment("Bob Williams", "555-5678", "10:30", gp1);
-        createAppointment("Carol Adams", "555-7890", "14:00", dentist1);
-        createAppointment("David Brown", "555-2468", "16:30", dentist1);
+        createAppointment("Alice Johnson", "1234", "08:00", gp1);
+        createAppointment("Bob Williams", "5678", "10:30", gp1);
+        createAppointment("Carol Adams", "7890", "14:00", dentist1);
+        createAppointment("David Brown", "2468", "16:30", dentist1);
 
         System.out.println("------------------------------");
 
         // Part 5 – Collection of appointments
         System.out.println("// Part 5  Collection of appointments");
 
-        // Print existing appointments
+        
         printExistingAppointments();
         System.out.println("------------------------------");
 
