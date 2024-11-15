@@ -25,7 +25,7 @@ public class HealthProfessional {
         System.out.println("Specialization: " + specialization);
     }
 
-    // Getters and setters (optional, if needed in further parts of the assignment)
+    // Getters and setters 
     public int getId() {
         return id;
     }
